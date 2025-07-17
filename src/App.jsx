@@ -19,7 +19,7 @@ function App() {
 
     <Header></Header>
 
-   <div className=' w-4/5 mx-auto'>
+   <div className='md:flex w-4/5 mx-auto gap-5'>
      <Blogs handleBookmar = {handleBookmar}></Blogs>
      <Bookmarks bookmarks ={bookmarks}></Bookmarks>
    </div>

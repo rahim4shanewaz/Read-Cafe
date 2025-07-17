@@ -18,7 +18,7 @@ const Blog = ({ blog, handleBookmar }) => {
                 </div>
             </div>
             <div className='flex justify-center items-center'>
-                <p className='text-slate-500'> {reading_time} mins read sp</p>
+                <p className='text-slate-500'> {reading_time} mins read spent</p>
                 <button onClick= { () => handleBookmar(blog)}>
                     <p className='text-red-500'><FaBookmark /></p>
                 </button>
