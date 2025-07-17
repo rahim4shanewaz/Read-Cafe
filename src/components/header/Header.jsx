@@ -1,9 +1,15 @@
-import React from 'react';
+import prof from '../../assets/images/profile.png'
 
 const Header = () => {
     return (
-        <div className='bg-slate-100 p-5'>
-            <h1 className='text-center font-bold text-3xl'>Header</h1>
+        <div >
+            <div className='mx-auto w-4/5'>
+                <div className='flex justify-between items-center  p-2 '>
+                    <h3 className='font-bold text-2xl text-slate-500'>READ CAFE</h3>
+                    <img src={prof} alt="" />
+                </div>
+                <hr />
+            </div>
         </div>
     );
 };
